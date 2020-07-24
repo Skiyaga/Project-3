@@ -1,6 +1,6 @@
-# Project-3
+## Project-3
 
-## Group Members:
+### Group Members:
 1. Ibra Lujumba
 2. Mike Mwanga
 3. Eve Akurut
@@ -9,7 +9,7 @@
 6. Edward Lukyamuzi
 7. Omara Isaac Emmanuel
 
-## Background Information on Project three
+### Background Information on Project three
 Covid-19 has affected all of our lives, and the pandemic is still running its course around the world. This has spurred an unprecedented scientific effort to understand the pathogen, SARS-CoV2, and the means of its spread and control. Since the start of this year, vast quantities of bioinformatic and epidemiological data have been created, much of which is publicly accessible, and analyses have been published in peer-reviewed as well as non-peer-reviewed media. This creates the potential for rapid and fruitful international collaboration and a low barrier to entry for researchers. On the other hand, it raises the risk of poor uses of data being published and influencing public opinion.
 
 This project will engage with publicly available data, in particular, viral sequence data on Covid-19 in East Africa, such as https://datarepository.wolframcloud.com/resources/Genetic-Sequences-for-the-SARS-CoV-2-Coronavirus, https://www.ebi.ac.uk/about/news/press-releases/embl-ebi-launches-covid-19-data-portal, portals summarised here: http://clinbioinfosspa.es/CovidResources
