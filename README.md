@@ -39,7 +39,7 @@ This project will require participants to be self-directed in defining their res
 4. Perfom phylogenetic inferences
 
 ## Data
-Extracted 103 African seqeunces from [GenBank](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=SARS-CoV-2,%20taxid:2697049&Completeness_s=complete&Region_s=Africa)
+Extract African seqeunces from [GenBank](https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=SARS-CoV-2,%20taxid:2697049&Completeness_s=complete&Region_s=Africa)
 
 
 
