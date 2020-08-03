@@ -21,3 +21,19 @@ Due to the huge research attention in this field, many analyses are currently on
 A particular challenge in this project will be for the participants to engage critically with the available data and analyses. As this is a fast-moving field, data or analyses may be biased or outdated within months, and even peer-reviewed results should be treated with caution - as is good practice in science generally. In addition to running their own analyses, participants are invited to critique and learn from published analyses on these datasets and to contribute to research conversations on relevant platforms, e.g. by writing a formal response to a BioRxiv pre-print, or similar.
 
 This project will require participants to be self-directed in defining their research approach and will give a unique opportunity to contribute to an ongoing international scientific effort.
+
+
+# Phylogenetic and Phylogeographic Analysis Plan 
+
+## Aimed at:
+1. Understand the genetic diversity between African SARS-CoV-19
+2. Infer relatedness if the African SARS-CoV-19 to global strains causing COVID-19
+3. Estimate the rate of evolution of SARS-CoV-19 in Africa
+## Method
+1. Extract all SARS-COVID-19 sequences from sequnce databases 
+  [Wolfram Data Repository](https://datarepository.wolframcloud.com/resources/Genetic-Sequences-for-the-SARS-CoV-2-Coronavirus)
+  [EMBL COVID-19 Data Repository](https://www.covid19dataportal.org/sequences?db=embl)
+  How can we extract data from [GISAID](https://www.gisaid.org/epiflu-applications/next-hcov-19-app/)
+2. Perform multiple sequence alignments
+3. Infer conserved and diverse genetic regions
+4. Perfom phylogenetic inferences
