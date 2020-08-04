@@ -34,6 +34,7 @@ This project will require participants to be self-directed in defining their res
   [Wolfram Data Repository](https://datarepository.wolframcloud.com/resources/Genetic-Sequences-for-the-SARS-CoV-2-Coronavirus)
   [EMBL COVID-19 Data Repository](https://www.covid19dataportal.org/sequences?db=embl)
   How can we extract data from [GISAID](https://www.gisaid.org/epiflu-applications/next-hcov-19-app/)
-2. Perform multiple sequence alignments
-3. Infer conserved and diverse genetic regions
-4. Perfom phylogenetic inferences
+2. Perform multiple sequence alignments, identify distribution of mutations within the CDs. We require a script to extract the 12 CDs of SARS-CoV-19 strains.
+3. Comparative analysis of primers to genomes to ascertain sensitivity
+4. Infer conserved and diverse genetic regions
+5. Perfom phylogenetic analysis to identify evolutionary relationship across the genome.
