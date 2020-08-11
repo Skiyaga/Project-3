@@ -1,4 +1,5 @@
-## Project-3
+# Epidemiology and Phylogenetic Analysis of COVID-19 in E. Africa
+## Project 3
 
 ### Group Members:
 1. Ibra Lujumba
@@ -22,13 +23,25 @@ A particular challenge in this project will be for the participants to engage cr
 
 This project will require participants to be self-directed in defining their research approach and will give a unique opportunity to contribute to an ongoing international scientific effort.
 
+## Objectives
 
-# Phylogenetic and Phylogeographic Analysis Plan 
+### To undertake epidemiologic and bioinformatics  analysis of COVID-19 data from East Africa
 
-## Objectivse:
-1. Understand the genetic diversity between African SARS-CoV-19
-2. Infer relatedness if the African SARS-CoV-19 to global strains causing COVID-19
-3. Estimate the rate of evolution of SARS-CoV-19 in Africa
+a. Epidemologic Analysis
+1. To analyze infection statistics of COVID-19 in E. Africa using SEIR model
+2. Obtain the  basic reproduction ratio, R0 
+3. Assess the role of non-pharmaceutical interventions (NPIs)  in  curbing the spread of COVID-19
+
+b. Bioinformatics Analysis
+
+1. Investigate genetic diversity of SARS-CoV-2 detected in E. Africa 
+2. Estimate evolutionary rate of SARS-CoV-2  and time of most common recent ancestor (TMRCA) 
+3. Compare sequences from East Africa with global sequences and infer the source of infection and the contribution of international and local infections through \   time of the pandemic
+4. Analysis of variable and conserved sequences with the aim of finding a marker gene
+5. Depending on the viral diversity within East Africa, is the use of available primers sensitive enough to detect infections?
+6. Phylogeographic analyses of sequences within respective East African countries (is viral diversity correlated with geographic origin?)
+
+
 ## Method
 1. Extract all SARS-COVID-19 sequences from sequnce databases 
   [Wolfram Data Repository](https://datarepository.wolframcloud.com/resources/Genetic-Sequences-for-the-SARS-CoV-2-Coronavirus)
