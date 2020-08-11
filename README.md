@@ -36,7 +36,7 @@ b. Bioinformatics Analysis
 
 1. Investigate genetic diversity of SARS-CoV-2 detected in E. Africa 
 2. Estimate evolutionary rate of SARS-CoV-2  and time of most common recent ancestor (TMRCA) 
-3. Compare sequences from East Africa with global sequences and infer the source of infection and the contribution of international and local infections through /  time of the pandemic
+3. Compare sequences from East Africa with global sequences and infer the source of infection and the contribution of international and local infections through time of the pandemic
 4. Analysis of variable and conserved sequences with the aim of finding a marker gene
 5. Depending on the viral diversity within East Africa, is the use of available primers sensitive enough to detect infections?
 6. Phylogeographic analyses of sequences within respective East African countries (is viral diversity correlated with geographic origin?)
