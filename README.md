@@ -25,7 +25,7 @@ This project will require participants to be self-directed in defining their res
 
 # Phylogenetic and Phylogeographic Analysis Plan 
 
-## Aimed at:
+## Objectivse:
 1. Understand the genetic diversity between African SARS-CoV-19
 2. Infer relatedness if the African SARS-CoV-19 to global strains causing COVID-19
 3. Estimate the rate of evolution of SARS-CoV-19 in Africa
