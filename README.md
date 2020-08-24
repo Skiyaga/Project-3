@@ -1,5 +1,5 @@
-# Epidemiology and Phylogenetic Analysis of COVID-19 in E. Africa
-## Project 3
+# Project 3
+## Interrogating public datasets and paths to results on Covid19 in East Africa
 
 ### Group Members:
 1. Ibra Lujumba
@@ -25,7 +25,7 @@ This project will require participants to be self-directed in defining their res
 
 ## Objectives
 
-### To undertake epidemiologic and bioinformatics  analysis of COVID-19 data from East Africa
+### To undertake epidemiologic and bioinformatics analysis of COVID-19 data from East Africa
 
 a. Epidemologic Analysis
 1. To analyze infection statistics of COVID-19 in E. Africa using SEIR model
