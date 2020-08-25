@@ -30,6 +30,7 @@ rule align:
         """
 
 
+
 rule mask:
 	message: "masking positions at both ends of the genome"
 
@@ -45,6 +46,21 @@ rule mask:
 			--mask-from-beginning 54 \
 			--mask-from-end 66 \
 			-- output {output.masked-alignment}
+			
+# Rule for building a maximum likelihood tree			
+rule tree:
+    message: "Building tree"
+    input:
+        alignment = rules.align.output.masked_alignment
+    output:
+        tree = "results/tree_raw.nwk"
+    shell:
+        """
+        augur tree \
+            --alignment {input.alignment} \
+            --output {output.tree}
+        """
+			
 
 
 
