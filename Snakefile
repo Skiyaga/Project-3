@@ -1,4 +1,4 @@
-# This is a Snake_file
+# Snakefile
 
 rule all:
 
@@ -14,7 +14,7 @@ rule align:
         """
 
     input:
-        sequences = input_fasta
+        sequences = input_fasta,
         ref = reference
 
     output:
@@ -35,7 +35,7 @@ rule mask:
 	message: "masking positions at both ends of the genome"
 
 	input:
-		alignment = rule.align.output.alignment
+		alignment = rules.align.output.alignment
 
 	output:
 		masked_alignment = "results/masked_alignment.fasta"
@@ -54,7 +54,7 @@ rule mask:
 rule tree:
     message: "Building tree"
     input:
-        alignment = rules.align.output.masked_alignment
+        alignment = rules.mask.output.masked_alignment
     output:
         tree = "results/tree_raw.nwk"
     shell:
