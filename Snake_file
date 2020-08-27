@@ -1,4 +1,4 @@
-# This is a snakemake file
+# This is a Snake_file
 
 rule all:
 
@@ -15,7 +15,7 @@ rule align:
 
     input:
         sequences = input_fasta
-        reference = reference
+        ref = reference
 
     output:
         alignment = "results/aligned.fasta"
@@ -24,7 +24,7 @@ rule align:
         """
         augur align \
             --sequences {input.sequences} \
-            --reference-sequence {input.reference} \
+            --reference-sequence {input.ref} \
             --output {output.alignment} \
             --fill-gaps
         """
@@ -41,13 +41,16 @@ rule mask:
 		masked_alignment = "results/masked_alignment.fasta"
 
 	shell:
+		""""
 		augur mask \ 
-			--sequences {input.alignment} \
+			- -sequences {input.alignment} \
 			--mask-from-beginning 54 \
 			--mask-from-end 66 \
-			-- output {output.masked-alignment}
+			-- output {output.masked_alignment}
+		""""
 			
-# Rule for building a maximum likelihood tree			
+# Rule for building a maximum likelihood tree	
+
 rule tree:
     message: "Building tree"
     input:
@@ -61,6 +64,3 @@ rule tree:
             --output {output.tree}
         """
 			
-
-
-
