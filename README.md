@@ -37,16 +37,19 @@ b. Bioinformatics Analysis
 1. Investigate genetic diversity of SARS-CoV-2 detected in E. Africa 
 2. Estimate evolutionary rate of SARS-CoV-2  and time of most common recent ancestor (TMRCA) 
 3. Compare sequences from East Africa with global sequences and infer the source of infection and the contribution of international and local infections through time of the pandemic
-4. Analysis of variable and conserved sequences with the aim of finding a marker gene
-5. Depending on the viral diversity within East Africa, is the use of available primers sensitive enough to detect infections?
-6. Phylogeographic analyses of sequences within respective East African countries (is viral diversity correlated with geographic origin?)
+4. Phylogeographic analyses of sequences within respective East African countries (is viral diversity correlated with geographic origin?)
 
 
 ## Method
-1. Extract all SARS-COVID-19 sequences from sequnce databases 
-  [Wolfram Data Repository](https://datarepository.wolframcloud.com/resources/Genetic-Sequences-for-the-SARS-CoV-2-Coronavirus)
-  [EMBL COVID-19 Data Repository](https://www.covid19dataportal.org/sequences?db=embl),[GISAID](https://www.gisaid.org/epiflu-applications/next-hcov-19-app/)
-2. Perform multiple sequence alignments, identify distribution of mutations within the CDs. We require a script to extract the 12 CDs of SARS-CoV-19 strains.
-3. Comparative analysis of primers to genomes to ascertain sensitivity
-4. Infer conserved and diverse genetic regions
-5. Perfom phylogenetic analysis to identify evolutionary relationship across the genome.
+1. Complete seqeunces from Kenya and Uganda (n=32) were downloaded from Global Initiative ON Sharing All Influenza Data [GISAID](https://www.gisaid.org/epiflu-applications/next-hcov-19-app/)website on August 10, 2020. In addition, complete sequencs from hotspot regions in Africa (S. Africa, Egypt, Algeria), Europe (Italy, UK, Spain), Aisa (China, UAE) were retrieved from GISAID. We filtered sequences collected after May 2020 since the samples collected from Kenya and Uganda were only from March and April 2020. Data from each country were randomly subsampled to a maximum of 100 sequences. The first SARS-CoV-2 isolate, NC_045512_China/Wuhan was included as reference seqeunce. 
+
+2. Sequences aligned using MAFFT 2.1. Manual curation was perfomed and removed sequences with longer stretches of N (>200bp) in the entire genome.
+
+5. Approximated maximum likelihood treers were built using IQ-tree 1.7. The best fit models were selected by modelFinder in IQ-tree under Bayesian infromation criterion (BIC).
+
+## Results
+
+We obtained 32 sequences from Kenya and Uganda and upto 501 sequences from global countries. 
+
+Figure 1 shows genetic relationship between Kenya and Uganda strains. High seqeunce similarity was observed between the strains. Similar clusters containing both Kenya and Ugandan sequences were evident. Global placement of Kenya and Uganda seqeunces showed close clustering to strains isolated from 
+Mali Egypt UAE Italy USA UK and China. Ancestral analysis indicated that the TRMC is dated in November 2019 corroborating with the beginning of the pandemic in China. The rate of substitution of SARS-CoV-2 was estimated to be 1.067e-03 per site per year. 
