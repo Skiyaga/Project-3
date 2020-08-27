@@ -1,4 +1,4 @@
-# Snakefile
+# This is a Snakefile
 
 rule all:
 
